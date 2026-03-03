@@ -5,13 +5,14 @@
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
 ## 🔗 **Apri il file interattivo**
-👉 **[Clicca qui per visualizzare la Dashboard](dashboard.png))**
+👉 **[Apri il file completo su Google Sheets](https://docs.google.com/spreadsheets/d/e/2PACX-1vQVAn80ompessltzvTuJGtEQwW-a0UWGkSlLea9FdVP2mZasCsTMnAs136HuXOfSNqFFlPQSEj0zgI7/pubhtml)**
 
-> ⚠️ **Nota**: Il file è pubblicato sul web. Per modificarlo:
+⚠️ **Nota**: Il file è pubblicato sul web. Per modificarlo:
 > 1. Apri il link
 > 2. Clicca su **"Apri in Google Fogli"** in alto
 > 3. Vai su **File → Crea una copia** e salvalo sul tuo Drive
 
+👉 **[Clicca qui per visualizzare la Dashboard](dashboard.png)**
 ---
 
 ## 📋 **Descrizione del progetto**
