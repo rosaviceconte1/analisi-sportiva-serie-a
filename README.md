@@ -5,9 +5,7 @@
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
 ## 🔗 **Apri il file interattivo**
-👉 **[Clicca qui per visualizzare la Dashboard](## 📸 Anteprima
-
-![Dashboard](dashboard.png))**
+👉 **[Clicca qui per visualizzare la Dashboard](dashboard.png))**
 
 > ⚠️ **Nota**: Il file è pubblicato sul web. Per modificarlo:
 > 1. Apri il link
