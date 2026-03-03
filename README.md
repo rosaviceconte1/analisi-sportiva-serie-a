@@ -16,7 +16,7 @@
 
 ## 📋 **Descrizione del progetto**
 
-Questo progetto contiene un'analisi completa della **Serie A 2025/26**, con dati aggiornati fino alla 10ª giornata. Il file Google Sheets è strutturato in quattro fogli interconnessi che si aggiornano automaticamente.
+Questo progetto contiene un'analisi della **Serie A 2025/26**, con dati aggiornati fino alla 10ª giornata. Il file Google Sheets è strutturato in quattro fogli interconnessi che si aggiornano automaticamente.
 
 ### ⚽ **Funzionalità principali**
 
@@ -45,14 +45,6 @@ Questo progetto contiene un'analisi completa della **Serie A 2025/26**, con dati
 | **Automazione** | Classifica che si aggiorna automaticamente inserendo nuovi risultati |
 | **Organizzazione dati** | 4 fogli collegati tra loro con struttura professionale |
 | **Pubblicazione web** | File pubblicato e accessibile da chiunque senza login |
-
----
-
-## 📸 **Anteprima**
-
-*Qui puoi aggiungere uno screenshot della tua Dashboard*
-*(per aggiungerlo: carica l'immagine su GitHub e usa `![descrizione](url-immagine)`)*
-
 ---
 
 ## 🚀 **Come utilizzare il progetto**
@@ -70,3 +62,21 @@ Questo progetto contiene un'analisi completa della **Serie A 2025/26**, con dati
 ---
 
 ## 📊 **Struttura del file**
+
+### 📅 Foglio Dati
+- **Colonne**: Data, Giornata, Squadra Casa, Squadra Trasferta, Gol Casa, Gol Trasferta, Esito, Spettatori
+- **Formula esito**: `=SE(E2>F2;"1";SE(E2<F2;"2";"X"))`
+
+### 🏆 Foglio Classifica
+- **Punti**: `=(CONTA.PIÙ.SE(Dati!C:C; B3; Dati!G:G; "1")*3) + (CONTA.PIÙ.SE(Dati!D:D; B3; Dati!G:G; "2")*3) + (CONTA.PIÙ.SE(...))`
+- **Gol Fatti**: `=SOMMA.SE(Dati!C:C;B3;Dati!E:E)+(SOMMA.SE(Dati!D:D;B3;Dati!F:F))`
+- **Vittorie/Pareggi/Sconfitte**: conteggi condizionali con CONTA.PIÙ.SE
+
+### 📈 Foglio Dashboard
+- **KPI principali**: totale partite, media gol, squadra top
+- **Classifica prime 5**: con formule GRANDE + INDICE + CONFRONTA
+- **Confronto squadre**: CERCA.VERT dinamico
+
+### ⚙️ Foglio Config
+- Anagrafica squadre (Allenatore, Stadio, Capacità)
+- Classifica marcatori con media gol
